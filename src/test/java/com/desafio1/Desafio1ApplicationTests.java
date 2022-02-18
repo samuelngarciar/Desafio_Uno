@@ -15,7 +15,7 @@ class Desafio1ApplicationTests {
 
    @Test
     public void testCustom() {
-      assertTrue("Is equal compare", 1==2);
+      Assert.assertTrue("Is equal compare", 1==2);
     }
 
 }
