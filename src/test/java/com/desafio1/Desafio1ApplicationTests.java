@@ -2,7 +2,7 @@ package com.desafio1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
- import static org.junit.Assert.*;
+import static org.junit.Assert.*;
 
 @SpringBootTest
 class Desafio1ApplicationTests {
@@ -15,7 +15,7 @@ class Desafio1ApplicationTests {
 
    @Test
     public void testCustom() {
-      Assert.assertTrue("Is equal compare", 1==2);
+    assertTrue(1==2);
     }
 
 }
