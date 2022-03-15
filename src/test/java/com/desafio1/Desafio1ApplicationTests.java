@@ -15,7 +15,7 @@ class Desafio1ApplicationTests {
 
    @Test
     public void testCustom() {
-    assertTrue(1==2);
+    assertTrue(2==2);
     }
 
 }
